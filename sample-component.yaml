@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Sample Component
+  # This is an extra long description with Markdown
+  description: 
+    - First item
+    - Second item
+  links:
+    - url: https://github.com/ls-morgan/scaffold-template
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - hello-world
